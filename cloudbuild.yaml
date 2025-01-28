@@ -6,3 +6,6 @@ steps:
 
 images:
 - 'us-central1-docker.pkg.dev/$PROJECT_ID/tp2/tp2-app'
+
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
