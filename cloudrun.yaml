@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  script: |
+    gcloud run deploy tp2-app --image us-central1-docker.pkg.dev/my-repository-441014/tp2/tp2-app:0.1 --region us-central1 --platform managed --allow-unauthenticated
